@@ -59,10 +59,15 @@ class CLI
     end
 
     def choose_difficulty
+        puts ""
+        puts ""
         puts "Please choose difficulty:
         -easy
         -medium
         -hard"
+        puts ""
+        puts "Enter menu to go back to menu"
+        puts "Enter exit to go back to close the game"
         difficulty = user_input
 
         if difficulty == "easy"
