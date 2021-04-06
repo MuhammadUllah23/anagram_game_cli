@@ -30,12 +30,13 @@ class CLI
             ending_game
         else
             invalid
+            menu
         end
     end
 
     def invalid
         puts "Please enter a valid entry."
-        menu
+
     end
 
     def ending_game
@@ -49,6 +50,7 @@ class CLI
         puts "Rule 1: All words have to be real."
         puts "Rule 2: All words have to be in English."
         puts "Rule 3: Word entry has to be the exact same letters and number of letters as the word given."
+        puts "Rule 4: If any time you would like to close game then enter exit"
         puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
         puts ""
         puts ""
@@ -56,7 +58,20 @@ class CLI
     end
 
     def choose_difficulty
-        puts "Please choose difficulty"
+        puts "Please choose difficulty:
+        -easy
+        -medium
+        -hard"
+        difficulty = user_input
+
+        if difficulty == "easy"
+        elsif difficulty == "medium"
+        elsif difficulty == "hard"
+        elsif difficulty == "exit"
+            ending_game
+        else
+            invalid
+        end
     end
 
     
