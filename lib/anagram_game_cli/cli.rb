@@ -27,7 +27,7 @@ class CLI
         elsif input == "start"
             choose_difficulty
         elsif input == "exit"
-            ending_game
+            closing_game
         else
             invalid
             menu
@@ -39,7 +39,7 @@ class CLI
 
     end
 
-    def ending_game
+    def closing_game
         puts "Thanks for playing!"
     end
     
@@ -68,7 +68,7 @@ class CLI
         elsif difficulty == "medium"
         elsif difficulty == "hard"
         elsif difficulty == "exit"
-            ending_game
+            closing_game
         else
             invalid
         end
