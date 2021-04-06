@@ -15,6 +15,12 @@ class CLI
         puts "----------------------------------------------------------------------------------------------------"
         puts "If you would like to see the rules, then please enter rules."
         puts "If you would like to start the game, then please enter start."
+        puts "If you would like to leave the game, then please enter exit."
+        menu
+    end
+
+    def menu
+        
     end
 
     
