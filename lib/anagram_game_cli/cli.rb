@@ -38,6 +38,10 @@ class CLI
         menu
     end
 
+    def ending_game
+        puts "Thanks for playing!"
+    end
+    
     
     
 
