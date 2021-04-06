@@ -55,7 +55,10 @@ class CLI
         menu
     end
 
-    
+    def choose_difficulty
+        puts "Please choose difficulty"
+    end
+
     
 
    
