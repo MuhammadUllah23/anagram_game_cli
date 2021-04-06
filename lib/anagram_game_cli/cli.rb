@@ -13,15 +13,26 @@ class CLI
     def description(name)
         puts "Welcome to the anagram game #{name}. This is where you can put your wordsmith skills to the test." 
         puts "----------------------------------------------------------------------------------------------------"
-        puts "If you would like to see the rules, then please enter rules."
-        puts "If you would like to start the game, then please enter start."
-        puts "If you would like to leave the game, then please enter exit."
+       
         menu
     end
 
     def menu
-        
+        puts "If you would like to see the rules, then please enter rules."
+        puts "If you would like to start the game, then please enter start."
+        puts "If you would like to leave the game, then please enter exit."
+        input = user_input
+        if input == "rules"
+            rules
+        elsif input == "start"
+            choose_difficulty
+        elsif input == "exit"
+            ending_game
+        else
+            invalid
+        end
     end
 
+    
     
 end
