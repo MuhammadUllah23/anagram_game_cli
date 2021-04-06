@@ -73,6 +73,8 @@ class CLI
             hard_mode
         elsif difficulty == "exit"
             closing_game
+        elsif difficulty == "menu"
+            menu
         else
             invalid
         end
