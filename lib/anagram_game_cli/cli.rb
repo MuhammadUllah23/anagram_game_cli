@@ -18,6 +18,8 @@ class CLI
     end
 
     def menu
+        puts ""
+        puts ""
         puts "If you would like to see the rules, then please enter rules."
         puts "If you would like to start the game, then please enter start."
         puts "If you would like to leave the game, then please enter exit."
@@ -35,6 +37,8 @@ class CLI
     end
 
     def invalid
+        puts ""
+        puts ""
         puts "Please enter a valid entry."
 
     end
@@ -67,7 +71,7 @@ class CLI
         -hard"
         puts ""
         puts "Enter menu to go back to menu"
-        puts "Enter exit to go back to close the game"
+        puts "Enter exit to close the game"
         difficulty = user_input
 
         if difficulty == "easy"
@@ -82,6 +86,7 @@ class CLI
             menu
         else
             invalid
+            choose_difficulty
         end
     end
     
