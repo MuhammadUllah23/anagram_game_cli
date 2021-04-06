@@ -65,8 +65,11 @@ class CLI
         difficulty = user_input
 
         if difficulty == "easy"
+            easy_mode
         elsif difficulty == "medium"
+            medium_mode
         elsif difficulty == "hard"
+            hard_mode
         elsif difficulty == "exit"
             closing_game
         else
@@ -83,7 +86,7 @@ class CLI
     end
 
     def hard_mode
-        
+
     end
 
     
