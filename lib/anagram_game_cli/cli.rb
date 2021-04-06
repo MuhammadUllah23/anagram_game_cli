@@ -42,6 +42,19 @@ class CLI
         puts "Thanks for playing!"
     end
     
+    def rules
+        puts ""
+        puts ""
+        puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        puts "Rule 1: All words have to be real."
+        puts "Rule 2: All words have to be in English."
+        puts "Rule 3: Word entry has to be the exact same letters and number of letters as the word given."
+        puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        puts ""
+        puts ""
+        menu
+    end
+
     
     
 
