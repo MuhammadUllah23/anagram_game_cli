@@ -33,6 +33,15 @@ class CLI
         end
     end
 
+    def invalid
+        puts "Please enter a valid entry."
+        menu
+    end
+
     
+    
+
+   
+
     
 end
