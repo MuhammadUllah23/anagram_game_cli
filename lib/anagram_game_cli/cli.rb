@@ -73,7 +73,20 @@ class CLI
             invalid
         end
     end
+    
+    def easy_mode
 
+    end
+
+    def medium_mode
+
+    end
+
+    def hard_mode
+        
+    end
+
+    
     
 
    
